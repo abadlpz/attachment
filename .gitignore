@@ -1,0 +1,49 @@
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# plugin release files
+/*.zip
+/plugin.xml
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+
+# "temporary" build files
+/target
+
+# Covers JetBrains IDEs: IntelliJ
+
+## Directory-based project format
+.idea/
+# if you remove the above rule, at least ignore user-specific stuff:
+# .idea/workspace.xml
+# .idea/tasks.xml
+# and these sensitive or high-churn files:
+# .idea/dataSources.ids
+# .idea/dataSources.xml
+# .idea/sqlDataSources.xml
+# .idea/dynamic.xml
+
+## File-based project format
+*.ipr
+*.iml
+*.iws
+
+## Additional for IntelliJ
+out/
+/classes/
+
+## For MAC
+.DS_Store
+/archive
+
+/target
